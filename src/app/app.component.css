@@ -1,0 +1,12 @@
+.theme{
+  min-height: 100svh;
+  padding-top: 100px;
+}
+#chapitre1{
+background-color: rgb(164, 180, 231);
+}
+#chapitre2{
+  background-color: #1f1f1f;
+}
+
+

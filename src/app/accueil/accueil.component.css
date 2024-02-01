@@ -1,0 +1,77 @@
+.flex-container1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#card {
+  overflow-wrap: break-word;
+}
+#photo {
+  width: 40%;
+  height: 40vh;
+  object-fit: cover;
+  margin-right: 5%;
+border-radius: 15px;
+}
+.typewriter {
+  flex: 1 1 50%;
+  margin-left: 2%;
+  padding-top: 5%;
+}
+
+.text {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  font-family: Arial, sans-serif;
+  font-size: 3rem;
+}
+
+.cursor {
+  display: inline-block;
+  width: 3px;
+  height: 3rem;
+  position: relative;
+  top: -2.5rem;
+  background-color: black;
+  animation: blink-caret 0.75s step-end infinite;
+  opacity: 1;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 2rem;
+  margin: 2%;
+  margin-top: 5%;
+}
+
+#paragraphe>p {
+  font-family: Arial, sans-serif;
+  font-size: 1.5rem;
+  margin: 2%;
+  width: 50%;
+  text-align: justify;
+}
+
+#contact-wrapper {
+  border-top: 2px solid black;
+  width: 90%; /* Contrôle la largeur de la bordure */
+  margin: 0 auto; /* Centre le div sur la page */
+}
+#contact {
+
+  padding-top: 1%;
+  padding-inline: 2%;
+  display: flex;
+  justify-content: flex-end; /* Aligner les éléments à droite */
+  gap: 1%; /* Définir l'espace entre les éléments */
+}
+.contact-link img {
+  width: 4svw;
+  margin-inline: 2%;
+}
+
+@keyframes blink-caret {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
