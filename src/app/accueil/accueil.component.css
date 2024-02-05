@@ -6,13 +6,35 @@
 #card {
   overflow-wrap: break-word;
 }
-#photo {
-  width: 40%;
-  height: 40vh;
+#contact {
+  width: 30%;
+  max-height: 50vh;
   object-fit: cover;
   margin-right: 5%;
 border-radius: 15px;
+padding-bottom: 10%;
+background-color: rgb(105, 120, 170);
 }
+#contact h2 {
+  font-family: Arial, sans-serif;
+  font-size: 3rem;
+  text-align: center;
+
+}
+.lien {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.contact-link img {
+  width: 2svw;
+  margin-inline: 2%;
+}
+.lien .contact-link,
+  .lien p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-inline: 2%;
+  }
 .typewriter {
   flex: 1 1 50%;
   margin-left: 2%;
@@ -51,24 +73,6 @@ h2 {
   margin: 2%;
   width: 50%;
   text-align: justify;
-}
-
-#contact-wrapper {
-  border-top: 2px solid black;
-  width: 90%; /* Contrôle la largeur de la bordure */
-  margin: 0 auto; /* Centre le div sur la page */
-}
-#contact {
-
-  padding-top: 1%;
-  padding-inline: 2%;
-  display: flex;
-  justify-content: flex-end; /* Aligner les éléments à droite */
-  gap: 1%; /* Définir l'espace entre les éléments */
-}
-.contact-link img {
-  width: 4svw;
-  margin-inline: 2%;
 }
 
 @keyframes blink-caret {
