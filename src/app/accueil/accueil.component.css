@@ -24,6 +24,7 @@ background-color: rgb(105, 120, 170);
 .lien {
   margin-top: 5%;
   margin-left: 5%;
+  max-width: 100%;
 }
 .contact-link img {
   width: 2svw;
