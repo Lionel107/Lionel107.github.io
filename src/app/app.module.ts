@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { ParcourComponent } from './parcour/parcour.component';
 import { CompetenceComponent } from './competence/competence.component';
+import { AccueilbackComponent } from './accueilback/accueilback.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CompetenceComponent } from './competence/competence.component';
     NavbarComponent,
     AccueilComponent,
     ParcourComponent,
-    CompetenceComponent
+    CompetenceComponent,
+    AccueilbackComponent
   ],
   imports: [
     BrowserModule,

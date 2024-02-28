@@ -1,3 +1,4 @@
+
 .flex-container1 {
   display: flex;
   flex-wrap: wrap;
@@ -5,15 +6,18 @@
 
 #card {
   overflow-wrap: break-word;
+
 }
 #contact {
   width: 30%;
   max-height: 50vh;
+  min-width: 300px;
   object-fit: cover;
   margin-right: 5%;
 border-radius: 15px;
 padding-bottom: 10%;
 background-color: rgb(105, 120, 170);
+
 }
 #contact h2 {
   font-family: Arial, sans-serif;
@@ -37,6 +41,8 @@ background-color: rgb(105, 120, 170);
     margin-inline: 2%;
   }
 .typewriter {
+  height: 500px;
+  /*border: green 2px solid;*/
   flex: 1 1 50%;
   margin-left: 2%;
   padding-top: 5%;
@@ -61,12 +67,7 @@ background-color: rgb(105, 120, 170);
   opacity: 1;
 }
 
-h2 {
-  font-family: Arial, sans-serif;
-  font-size: 2rem;
-  margin: 2%;
-  margin-top: 5%;
-}
+
 
 #paragraphe>p {
   font-family: Arial, sans-serif;
@@ -75,8 +76,51 @@ h2 {
   width: 50%;
   text-align: justify;
 }
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 3rem;
+  margin: 2%;
+  margin-top: 5%;
+
+}
 
 @keyframes blink-caret {
   0%, 100% { opacity: 0; }
   50% { opacity: 1; }
+}
+
+@media(max-width: 1024px) {
+    .text {
+      font-size: 1.5rem;
+    }
+    .cursor {
+      height: 1.5rem;
+      top: -0.8rem;
+    }
+    #contact {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 5%;
+    }
+    .typewriter {
+      height: 150px;
+    }
+    .contact-link img {
+          width: 6svw;    
+    }
+    #paragraphe>h2 {
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    margin: 2%;
+    margin-top: 5%;
+    font-weight: bold;
+  }
+    #paragraphe>p {
+      font-family: Arial, sans-serif;
+      font-size: 1rem;
+      padding: 2%;
+      width: 90%;
+      text-align: left ;
+  }
+
 }
