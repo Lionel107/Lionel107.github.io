@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.tech{
+    margin-inline: 10px;
+}
+.tech img{
+    display: block;
+    width: 90%;
+    height: 90%;
+    border-radius: 15px;
+    border: black 2px solid;
+}
+.tech p{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+p{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
