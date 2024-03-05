@@ -1,5 +1,29 @@
 .icon{
-  width: 10svw;
+  width: 5svw;
   margin-inline: 10px;
   border-radius: 15px;
+  background-color: rgb(204, 209, 212);
+  
 }
+h3 {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+#titre{
+ 
+  margin-top: 100px;
+  
+ 
+}
+
+
+.icon img{
+  margin: auto;
+  width: 90%;
+  height: 90%;
+  border-radius: 15px;
+}
+
